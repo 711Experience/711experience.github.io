@@ -31,10 +31,19 @@ html {
     margin: 25px;
 }
 
+.intro, .constrained, .chapter-wrapper {
+    width: calc(100% - 50px);
+    margin: 25px;
+}
+
 @media (min-width:740px) {
     .finale-video {
         width: 640px;
         height: 360px;
+    }
+    .intro, .constrained, .chapter-wrapper {
+        width: 640px;
+        margin: 25px auto;
     }
 }
 
@@ -42,6 +51,9 @@ html {
     .finale-video {
         width: 960px;
         height: 540px;
+    }
+    .intro, .constrained, .chapter-wrapper {
+        width: 960px;
     }
 }
 
@@ -55,6 +67,9 @@ html {
     }
     .large-title {
         font-size: 120px;
+    }
+    .intro, .constrained, .chapter-wrapper {
+        width: 1280px;
     }
 }
 
@@ -88,4 +103,90 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     max-width: 1280px;
+}
+
+.fab {
+    font-weight: normal;
+}
+
+.fa-align-left {
+    font-size: 30px;
+    top: -3px;
+}
+
+.icon {
+    color: white;
+}
+
+.soundcloud {
+    height: 36px;
+}
+
+.align-left {
+    height: 30px;
+    margin-bottom: 3px;
+}
+
+.svglink {
+    position: relative;
+    display: inline-block;
+}
+
+.svglink:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.youtube {
+    height: 36px
+}
+
+
+
+.soundcloud-wrapper {
+    width: calc(50% - 26.5px);
+    vertical-align: top;
+}
+
+.left {
+    margin-right: 24px;
+    display: inline-block;
+}
+
+.text-wrapper {
+    width: calc(50% - 26.5px);
+    vertical-align: top;
+}
+
+.text-wrapper > br {
+    line-height: 2;
+}
+
+.right {
+    margin-left: 24px;
+    display: inline-block;
+}
+
+@media (max-width:1059px) {
+    .chapter-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .soundcloud-wrapper {
+        margin: 0;
+        display: block;
+        width: 100%;
+        order: 1;
+        margin-bottom: 25px;
+    }
+    .text-wrapper {
+        margin: 0;
+        display: block;
+        width: 100%;
+        order: 2;
+    }
 }
