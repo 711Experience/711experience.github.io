@@ -29,6 +29,8 @@ html {
 
 .finale-video {
     margin: 25px;
+    width: 480px;
+    height: 270px;
 }
 
 .intro, .constrained, .chapter-wrapper {
