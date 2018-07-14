@@ -233,7 +233,7 @@ nav > .chapter-anchor {
     display: none;
 }
 
-nav:hover > .chapter-anchor {
+nav:hover > .chapter-anchor, nav:focus > .chapter-anchor {
     display: block;
     margin: 0 auto;
 }
