@@ -167,7 +167,7 @@ nav > a:hover {
 .text-wrapper > br {
     content: “ “;
     display: block;
-    margin: 0.5em;
+    margin: 1em 0;
 }
 
 .right {
