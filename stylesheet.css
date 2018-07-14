@@ -177,7 +177,8 @@ nav > a:hover {
     opacity: 0.5;
     cursor: pointer;
         display: block;
-    margin: 0 auto 5px;
+    margin: 0 auto;
+    padding-bottom: 5px;
 }
 
 nav:hover > .fa-bars, .fa-bars:hover {
