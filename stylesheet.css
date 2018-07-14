@@ -98,7 +98,9 @@ a:hover {
     opacity: 0.75;
 }
 
-
+nav > a:hover {
+    opacity: inherit;
+}
 
 .intro {
     font-size: 20px;
@@ -147,8 +149,6 @@ a:hover {
     height: 36px
 }
 
-
-
 .soundcloud-wrapper {
     width: calc(50% - 26.5px);
     vertical-align: top;
@@ -173,6 +173,17 @@ a:hover {
     display: inline-block;
 }
 
+.fa-bars {
+    opacity: 0.5;
+    cursor: pointer;
+        display: block;
+    margin: 0 auto 5px;
+}
+
+nav:hover > .fa-bars, .fa-bars:hover {
+    opacity: 1;
+}
+
 @media (max-width:1059px) {
     .chapter-wrapper {
         display: flex;
@@ -193,7 +204,40 @@ a:hover {
     }
 }
 
+@media (max-width:739px) {
+    nav {
+    display:none;
+    }
+}
+
 .first-exit-footer {
     width: 100%;
     max-width: 800px;
+}
+
+nav {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+}
+
+nav > a {
+    display: block;
+    opacity: 1;
+}
+
+nav > .chapter-anchor {
+    display: none;
+}
+
+nav:hover > .chapter-anchor {
+    display: block;
+    margin: 0 auto;
+}
+
+.small-title.constrained {
+    padding-top: 25px;
 }
