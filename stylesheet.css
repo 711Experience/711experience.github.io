@@ -164,6 +164,14 @@ nav > a:hover {
     vertical-align: top;
 }
 
+.text-wrapper > p:first-of-type {
+    margin-top: 0;
+}
+
+.text-wrapper > p:last-of-type {
+    margin-bottom: 0;
+}
+
 .text-wrapper > br {
     line-height: 2;
 }
