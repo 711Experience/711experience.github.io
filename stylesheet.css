@@ -172,12 +172,6 @@ nav > a:hover {
     margin-bottom: 0;
 }
 
-.text-wrapper > br {
-    content: “ “;
-    display: block;
-    margin: 1em 0;
-}
-
 .right {
     margin-left: 24px;
     display: inline-block;
