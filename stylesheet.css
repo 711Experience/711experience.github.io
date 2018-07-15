@@ -33,7 +33,9 @@ html {
     height: 270px;
 }
 
-.intro, .constrained, .chapter-wrapper {
+.intro,
+.constrained,
+.chapter-wrapper {
     width: calc(100% - 50px);
     margin: 25px;
 }
@@ -43,7 +45,9 @@ html {
         width: 640px;
         height: 360px;
     }
-    .intro, .constrained, .chapter-wrapper {
+    .intro,
+    .constrained,
+    .chapter-wrapper {
         width: 640px;
         margin: 25px auto;
     }
@@ -54,7 +58,9 @@ html {
         width: 960px;
         height: 540px;
     }
-    .intro, .constrained, .chapter-wrapper {
+    .intro,
+    .constrained,
+    .chapter-wrapper {
         width: 960px;
     }
 }
@@ -70,14 +76,16 @@ html {
     .large-title {
         font-size: 120px;
     }
-    .intro, .constrained, .chapter-wrapper {
+    .intro,
+    .constrained,
+    .chapter-wrapper {
         width: 1280px;
     }
 }
 
 .finale-wrapper {
-    width:100%;
-    text-align:center;
+    width: 100%;
+    text-align: center;
 }
 
 .credits-wrapper {
@@ -137,12 +145,12 @@ nav > a:hover {
 }
 
 .svglink:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .youtube {
@@ -180,12 +188,13 @@ nav > a:hover {
 .fa-bars {
     opacity: 0.5;
     cursor: pointer;
-        display: block;
+    display: block;
     margin: 0 auto;
     padding-bottom: 5px;
 }
 
-nav:hover > .fa-bars, .fa-bars:hover {
+nav:hover > .fa-bars,
+.fa-bars:hover {
     opacity: 1;
 }
 
@@ -211,7 +220,7 @@ nav:hover > .fa-bars, .fa-bars:hover {
 
 @media (max-width:739px) {
     nav {
-    display:none;
+        display: none;
     }
 }
 
@@ -238,7 +247,8 @@ nav > .chapter-anchor {
     display: none;
 }
 
-nav:hover > .chapter-anchor, nav:focus > .chapter-anchor {
+nav:hover > .chapter-anchor,
+nav:focus > .chapter-anchor {
     display: block;
     margin: 0 auto;
 }
