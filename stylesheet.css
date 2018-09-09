@@ -15,7 +15,7 @@
 body {
     margin: 0;
     padding: 25px;
-    font-family: "Inter UI";
+    font-family: "Inter UI", sans-serif;
     background: linear-gradient(#000000, #004000);
     background-repeat: no-repeat;
     background-size: 100% 100%;
